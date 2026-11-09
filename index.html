@@ -1,0 +1,394 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Bull Racing Simulator Experience | Home</title>
+
+    <!--
+        Author: Davis Dale
+        Date: November 6, 2026
+        Page: Home Page (index.html)
+        Class Project: Small Business Website
+    -->
+
+    <!-- Internal CSS Stylesheet -->
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #07152f;
+            color: white;
+        }
+
+        /* Header and Navigation */
+        header {
+            background-color: #030d21;
+            padding: 25px;
+            text-align: center;
+            border-bottom: 4px solid #e10600;
+        }
+
+        header h1 {
+            color: #ffcc00;
+            font-size: 35px;
+            margin: 10px 0;
+        }
+
+        nav {
+            margin-top: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 17px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffcc00;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(
+                rgba(0, 0, 0, 0.65),
+                rgba(0, 0, 0, 0.75)
+            ),
+            url("https://commons.wikimedia.org/wiki/Special:FilePath/Red_Bull_F1_Car_%2855383927464%29.jpg")
+            center/cover;
+
+            padding: 110px 20px;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 48px;
+            color: #ffcc00;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 21px;
+            max-width: 750px;
+            margin: 20px auto;
+            line-height: 1.6;
+        }
+
+        /* Buttons */
+        .button {
+            display: inline-block;
+            background-color: #e10600;
+            color: white;
+            padding: 15px 30px;
+            margin: 15px 8px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            font-size: 17px;
+        }
+
+        .button:hover {
+            background-color: #ffcc00;
+            color: #07152f;
+        }
+
+        /* Main Content */
+        main {
+            max-width: 1200px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        section {
+            margin-bottom: 65px;
+        }
+
+        h2 {
+            color: #ffcc00;
+            font-size: 32px;
+            text-align: center;
+        }
+
+        .about p {
+            font-size: 19px;
+            text-align: center;
+            line-height: 1.8;
+            max-width: 850px;
+            margin: auto;
+        }
+
+        /* Featured Experiences */
+        .features {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+            margin-top: 35px;
+        }
+
+        .feature-card {
+            background-color: #10264d;
+            border: 2px solid #233c65;
+            border-radius: 10px;
+            padding: 25px;
+            width: 320px;
+            text-align: center;
+        }
+
+        .feature-card:hover {
+            border-color: #ffcc00;
+        }
+
+        .feature-card h3 {
+            color: #ffcc00;
+            font-size: 23px;
+        }
+
+        .feature-card p {
+            color: #e0e0e0;
+            line-height: 1.7;
+        }
+
+        /* Simulator Image */
+        .simulator-image {
+            display: block;
+            max-width: 800px;
+            width: 100%;
+            height: auto;
+            margin: 35px auto;
+            border-radius: 10px;
+            border: 3px solid #ffcc00;
+        }
+
+        /* Customer Review */
+        .review {
+            background-color: #10264d;
+            border-left: 5px solid #e10600;
+            padding: 35px;
+            border-radius: 8px;
+            max-width: 800px;
+            margin: 30px auto;
+            text-align: center;
+        }
+
+        .review p {
+            font-style: italic;
+            font-size: 19px;
+            line-height: 1.7;
+        }
+
+        .review h3 {
+            color: #ffcc00;
+        }
+
+        /* Call to Action */
+        .cta {
+            text-align: center;
+            padding: 45px 20px;
+            background-color: #10264d;
+            border-radius: 10px;
+        }
+
+        .cta p {
+            font-size: 19px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #030d21;
+            color: #cccccc;
+            text-align: center;
+            padding: 25px;
+            border-top: 4px solid #e10600;
+        }
+
+        /* Mobile Screen Adjustments */
+        @media (max-width: 600px) {
+            .hero h2 {
+                font-size: 32px;
+            }
+
+            header h1 {
+                font-size: 26px;
+            }
+
+            nav a {
+                display: inline-block;
+                margin: 8px;
+            }
+
+            .feature-card {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Website Header -->
+    <header>
+        <h1>ORACLE RED BULL RACING</h1>
+        <p>SIMULATOR EXPERIENCE</p>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="page2.html">Experiences</a>
+            <a href="page3.html">About & Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h2>RACE LIKE A CHAMPION</h2>
+
+        <p>
+            Experience the speed, excitement, and intensity
+            of Formula 1 racing without ever leaving the ground.
+            Your journey to the podium starts here!
+        </p>
+
+        <a href="page2.html" class="button">
+            Explore Our Experiences
+        </a>
+    </div>
+
+    <!-- Main Page Content -->
+    <main>
+
+        <!-- Business Overview -->
+        <section class="about">
+            <h2>WELCOME TO THE GRID</h2>
+
+            <p>
+                Oracle Red Bull Racing Simulator Experience is a
+                fictional entertainment business that brings the
+                excitement of Formula 1 racing to everyday fans.
+                Our high-quality racing simulators allow customers
+                to experience realistic tracks, competitive races,
+                and the thrill of driving a professional race car.
+                Whether you are a beginner or an experienced
+                racing enthusiast, we have an experience for you!
+            </p>
+        </section>
+
+        <!-- Featured Experiences -->
+        <section>
+            <h2>OUR FEATURED EXPERIENCES</h2>
+
+            <div class="features">
+
+                <div class="feature-card">
+                    <h3>Grand Prix Simulator</h3>
+
+                    <p>
+                        Take control of a Formula 1 racing simulator
+                        and compete on famous racing circuits.
+                        Experience realistic steering, braking,
+                        and high-speed competition.
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <h3>Head-to-Head Racing</h3>
+
+                    <p>
+                        Challenge your friends in an exciting
+                        multiplayer racing competition.
+                        See who has the skills to finish
+                        first and claim the podium!
+                    </p>
+                </div>
+
+                <div class="feature-card">
+                    <h3>Time Trial Challenge</h3>
+
+                    <p>
+                        Think you have what it takes to set
+                        the fastest lap? Race against the
+                        clock, improve your driving skills,
+                        and compete for a spot on our leaderboard.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Racing Simulator Image -->
+        <section>
+            <h2>FEEL THE RUSH OF FORMULA 1</h2>
+
+            <img
+                class="simulator-image"
+                src="https://www.peterclausen.de/pcft-content/uploads/PI_890_Simulator.jpg"
+                alt="Racing experience image"
+            >
+
+            <p style="text-align: center; font-size: 18px;">
+                Get behind the wheel and experience
+                the excitement of professional racing!
+            </p>
+        </section>
+
+        <!-- Customer Review -->
+        <section>
+            <h2>WHAT OUR RACERS ARE SAYING</h2>
+
+            <div class="review">
+                <p>
+                    "This was one of the coolest racing
+                    experiences I've ever had! The simulators
+                    made me feel like I was actually competing
+                    in a Formula 1 Grand Prix. I can't wait
+                    to come back and beat my lap time!"
+                </p>
+
+                <h3>- Alex M., Fictional Customer</h3>
+
+                <p>★★★★★</p>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="cta">
+            <h2>READY TO HIT THE TRACK?</h2>
+
+            <p>
+                Start your racing journey today and
+                discover what it takes to become a champion!
+            </p>
+
+            <a href="page2.html" class="button">
+                Explore Our Experiences
+            </a>
+
+            <a href="page3.html" class="button">
+                Get in Touch
+            </a>
+        </section>
+
+    </main>
+
+    <!-- Website Footer -->
+    <footer>
+        <p>
+            &copy; 2026 Oracle Red Bull Racing Simulator Experience
+        </p>
+
+        <p>
+            Fictional Business Created for an Educational Project.
+            Not affiliated with Oracle Red Bull Racing.
+        </p>
+    </footer>
+
+</body>
+</html>
